@@ -34,7 +34,7 @@ const Hero = () => {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Sneha Prasad</h1>
           <p className="text-xl md:text-2xl text-slate-200 mb-8 max-w-2xl mx-auto">
-            Data Science Enthusiast • Photographer • Storyteller
+            Data Science Enthusiast
           </p>
           <Button
             className="bg-purple-600 hover:bg-purple-700 text-white"

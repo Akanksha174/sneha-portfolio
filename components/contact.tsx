@@ -85,7 +85,7 @@ const Contact = () => {
                     href="mailto:sneha.prasad@example.com"
                     className="text-slate-600 dark:text-slate-300 hover:text-purple-600 dark:hover:text-purple-400"
                   >
-                    sneha.prasad@example.com
+                    snehaprasad0501@gmail.com
                   </a>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-slate-800 dark:text-white">Location</h4>
-                  <p className="text-slate-600 dark:text-slate-300">Bangalore, India</p>
+                  <p className="text-slate-600 dark:text-slate-300">Punjab, India</p>
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ const Contact = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        placeholder="John Doe"
+                        placeholder=""
                         required
                         className="border-slate-300 dark:border-slate-700"
                       />
@@ -153,7 +153,7 @@ const Contact = () => {
                         type="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="john@example.com"
+                        placeholder=""
                         required
                         className="border-slate-300 dark:border-slate-700"
                       />
