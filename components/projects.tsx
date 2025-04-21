@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Sentiment Analysis Tool",
       description:
         "A machine learning project that analyzes sentiment in customer reviews using NLP techniques and Python.",
-      image: "/InventoryManagement.jpg?height=300&width=500&",
+      image: "/InventoryManagment.jpg?height=300&width=500&",
       tags: ["Python", "NLP", "Machine Learning", "Data Visualization"],
       demoLink: "#",
       githubLink: "#",
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: "Healthcare Data Dashboard",
       description: "Interactive dashboard built with R Shiny to visualize healthcare metrics and patient outcomes.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/p4.jpg?height=300&width=500",
       tags: ["R", "Shiny", "Data Analysis", "Visualization"],
       demoLink: "#",
       githubLink: "#",
@@ -32,7 +32,7 @@ const Projects = () => {
     {
       title: "Mountain Photography Collection",
       description: "A curated gallery of mountain landscapes captured during various hiking trips.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/p2.jpg?height=300&width=500",
       tags: ["Photography", "Nature", "Landscape"],
       demoLink: "#",
       githubLink: null,

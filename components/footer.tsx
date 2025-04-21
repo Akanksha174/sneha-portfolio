@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h3 className="text-xl font-semibold">Sneha Prasad</h3>
-            <p className="text-slate-400 mt-1">Data Science • Photography • Storytelling</p>
+            <p className="text-slate-400 mt-1">Data Science Enthusiast</p>
           </div>
           <div className="text-slate-400 text-sm">&copy; {currentYear} Sneha Prasad. All rights reserved.</div>
         </div>

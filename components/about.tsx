@@ -29,8 +29,8 @@ const About = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-bold text-slate-800 dark:text-white mb-4">About Me</h2>
-          <div className="w-20 h-1 bg-purple-600 mx-auto mb-8"></div>
+          {/* <h2 className="text-3xl font-bold text-slate-800 dark:text-white mb-4"></h2>
+          <div className="w-20 h-1 bg-purple-600 mx-auto mb-8"></div> */}
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
