@@ -47,12 +47,7 @@ const Contact = () => {
       url: "https://linkedin.com/in/",
       color: "bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800",
     },
-    {
-      name: "Instagram",
-      icon: <Instagram className="h-5 w-5" />,
-      url: "https://instagram.com/halcyonic.lens",
-      color: "bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700",
-    },
+
   ]
 
   return (

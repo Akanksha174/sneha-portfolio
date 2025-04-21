@@ -18,10 +18,6 @@ const About = () => {
       name: "Machine Learning",
       icon: <Database className="h-6 w-6 text-purple-600" />,
     },
-    {
-      name: "Photography",
-      icon: <Camera className="h-6 w-6 text-purple-600" />,
-    },
   ]
 
   return (
@@ -46,7 +42,7 @@ const About = () => {
             <div className="relative">
               <div className="aspect-square rounded-full overflow-hidden border-4 border-purple-200 dark:border-purple-900 shadow-lg max-w-md mx-auto">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/sneha.jpg?width=400&height=400&"
                   alt="Sneha Prasad"
                   className="object-cover w-full h-full"
                 />
@@ -67,15 +63,13 @@ const About = () => {
             className="space-y-6"
           >
             <h3 className="text-2xl font-semibold text-slate-800 dark:text-white">Hello, I'm Sneha!</h3>
-            <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-              I'm a final-year B.Tech CSE student with a passion for data science, photography, and storytelling. My
-              journey in tech is driven by curiosity and a desire to create meaningful solutions through data.
-            </p>
-            <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-              When I'm not coding or analyzing data, you'll find me stargazing or capturing moments through my camera
-              lens. I dream of someday living in the mountains, where the night sky is clearest and nature's beauty is
-              at its most serene.
-            </p>
+<p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+  I'm a final-year B.Tech CSE student specializing in data science. My interests lie in leveraging data to build impactful, tech-driven solutions.
+</p>
+<p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+  Outside academics, I enjoy exploring data trends, coding projects, and enhancing my skills through hands-on experimentation.
+</p>
+
 
             <div className="pt-4">
               <h4 className="text-lg font-medium text-slate-800 dark:text-white mb-4">Technical Skills</h4>

@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Sentiment Analysis Tool",
       description:
         "A machine learning project that analyzes sentiment in customer reviews using NLP techniques and Python.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/InventoryManagement.jpg?height=300&width=500&",
       tags: ["Python", "NLP", "Machine Learning", "Data Visualization"],
       demoLink: "#",
       githubLink: "#",
