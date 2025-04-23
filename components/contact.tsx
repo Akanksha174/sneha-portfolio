@@ -38,13 +38,13 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: <Github className="h-5 w-5" />,
-      url: "https://github.com/",
+      url: "https://github.com/SnehaPrasad7781",
       color: "bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-800",
     },
     {
       name: "LinkedIn",
       icon: <Linkedin className="h-5 w-5" />,
-      url: "https://linkedin.com/in/",
+      url: "https://www.linkedin.com/in/sneha-prasad-037576252/",
       color: "bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800",
     },
 
