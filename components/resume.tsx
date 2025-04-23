@@ -16,7 +16,7 @@ const ResumeSection = () => {
           variant="outline"
           className="text-purple-600 border-purple-600 hover:bg-purple-50 dark:text-purple-400 dark:border-purple-400 dark:hover:bg-purple-950"
         >
-          <a href="/resume.pdf" download>
+          <a href="https://drive.google.com/file/d/11EwitygxrtTHlyhTZbknq69txhkKnJs6/view" download>
             <Download className="h-4 w-4 mr-2" />
             Download Resume
           </a>

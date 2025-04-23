@@ -12,39 +12,28 @@ const Certificates = () => {
 
   const certificates = [
     {
-      title: "Machine Learning Specialization",
-      issuer: "Coursera - Stanford University",
-      date: "June 2023",
-      description:
-        "Comprehensive specialization covering machine learning algorithms, neural networks, and practical applications.",
-      image: "/placeholder.svg?height=200&width=350",
-      link: "#",
+      title: "Cloud Computing",
+      issuer: "Swayam NPTEL",
+      date: "Oct 2024",
+      link: "https://drive.google.com/drive/folders/1Pr9mbD-tFKBjPfhgdXUVBw1-nBsFlLCs",
     },
     {
-      title: "Data Science Professional Certificate",
-      issuer: "IBM via Coursera",
-      date: "March 2023",
-      description:
-        "Professional certificate covering data analysis, visualization, machine learning, and data science methodologies.",
-      image: "/placeholder.svg?height=200&width=350",
-      link: "#",
+      title: "Mastering dsa using c and c++",
+      issuer: "Coursera",
+      date: "Nov 2024",
+      link: "https://drive.google.com/drive/folders/1Pr9mbD-tFKBjPfhgdXUVBw1-nBsFlLCs",
     },
     {
-      title: "Python for Data Science and Machine Learning",
-      issuer: "Udemy",
-      date: "December 2022",
-      description:
-        "Comprehensive course on Python libraries for data analysis including NumPy, Pandas, Matplotlib, and Scikit-Learn.",
-      image: "/placeholder.svg?height=200&width=350",
-      link: "#",
+      title: "Excel skills for business",
+      issuer: "Coursera",
+      date: "December 2023",
+      link: "https://drive.google.com/drive/folders/1Pr9mbD-tFKBjPfhgdXUVBw1-nBsFlLCs",
     },
     {
-      title: "SQL for Data Analysis",
+      title: "Supervised machine learning",
       issuer: "DataCamp",
       date: "October 2022",
-      description: "Certificate in SQL fundamentals and advanced queries for data analysis and database management.",
-      image: "/placeholder.svg?height=200&width=350",
-      link: "#",
+      link: "https://drive.google.com/drive/folders/1Pr9mbD-tFKBjPfhgdXUVBw1-nBsFlLCs",
     },
   ]
 
@@ -70,18 +59,18 @@ const Certificates = () => {
   }
 
   return (
-    <section id="certificates" className="py-16 scroll-mt-16" ref={ref}>
-      <div className="container mx-auto">
+    <section id="certificates" className="py-20 scroll-mt-20 bg-slate-50 dark:bg-slate-900" ref={ref}>
+      <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-12"
+          className="text-center mb-16"
         >
-          <h2 className="text-3xl font-bold text-slate-800 dark:text-white mb-4">Certificates</h2>
-          <div className="w-20 h-1 bg-purple-600 mx-auto mb-8"></div>
-          <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            Professional certifications and courses I've completed to enhance my skills
+          <h2 className="text-4xl font-bold text-slate-800 dark:text-white">Certificates</h2>
+          <div className="w-24 h-1 bg-purple-600 mx-auto my-4 rounded-full" />
+          <p className="text-slate-600 dark:text-slate-300 max-w-xl mx-auto">
+            Recognitions and certifications I've earned from various platforms.
           </p>
         </motion.div>
 
@@ -93,24 +82,23 @@ const Certificates = () => {
         >
           {certificates.map((certificate, index) => (
             <motion.div key={index} variants={itemVariants}>
-              <Card className="h-full flex flex-col bg-white dark:bg-slate-800 border-none shadow-md overflow-hidden">
-                <div className="flex items-center p-4 bg-gradient-to-r from-purple-600 to-teal-600">
-                  <Award className="h-6 w-6 text-white mr-2" />
-                  <h3 className="text-lg font-semibold text-white">{certificate.title}</h3>
+              <Card className="relative h-full border-l-4 border-purple-600 dark:border-purple-500 rounded-xl shadow-lg bg-white dark:bg-slate-800 overflow-hidden hover:shadow-xl transition-shadow">
+                <div className="absolute right-4 top-4 text-purple-200 dark:text-purple-800 opacity-10 text-6xl">
+                  <Award />
                 </div>
-                <CardContent className="p-6 flex-grow">
-                  <div className="flex items-center text-sm text-slate-500 dark:text-slate-400 mb-4">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-semibold text-slate-800 dark:text-white mb-1">{certificate.title}</h3>
+                  <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">{certificate.issuer}</p>
+                  <div className="flex items-center text-sm text-slate-500 dark:text-slate-400">
                     <Calendar className="h-4 w-4 mr-1" />
                     <span>{certificate.date}</span>
                   </div>
-                  <p className="text-slate-700 dark:text-slate-300 font-medium mb-2">{certificate.issuer}</p>
-                  <p className="text-slate-600 dark:text-slate-400 text-sm">{certificate.description}</p>
                 </CardContent>
-                <CardFooter className="border-t border-slate-200 dark:border-slate-700 p-4">
+                <CardFooter className="p-4 border-t border-slate-200 dark:border-slate-700">
                   <Button
                     variant="outline"
                     size="sm"
-                    className="text-purple-600 border-purple-600 hover:bg-purple-50 dark:text-purple-400 dark:border-purple-400 dark:hover:bg-purple-950"
+                    className="text-purple-600 border-purple-600 hover:bg-purple-100 dark:text-purple-400 dark:border-purple-400 dark:hover:bg-purple-900"
                     asChild
                   >
                     <a href={certificate.link} target="_blank" rel="noopener noreferrer">
