@@ -10,34 +10,44 @@ import { Button } from "@/components/ui/button"
 const Projects = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, amount: 0.2 })
-
   const projects = [
     {
-      title: "Sentiment Analysis Tool",
+      title: "Cafe Sales Analysis & Real-Time Inventory Management",
       description:
-        "A machine learning project that analyzes sentiment in customer reviews using NLP techniques and Python.",
-      image: "/InventoryManagment.jpg?height=300&width=500&",
-      tags: ["Python", "NLP", "Machine Learning", "Data Visualization"],
+        "Developed a system to analyze sales and manage cafe inventory using Python, MySQL, and Tableau. Implemented real-time stock alerts and used ML (Linear Regression & ARIMA) for sales forecasting.",
+      image: "/InventoryManagment.jpg?height=300&width=500",
+      tags: [
+        "Python",
+        "MySQL",
+        "Tableau",
+        "R",
+        "Machine Learning",
+        "ARIMA",
+        "Data Visualization",
+      ],
       demoLink: "#",
       githubLink: "#",
     },
     {
-      title: "Healthcare Data Dashboard",
-      description: "Interactive dashboard built with R Shiny to visualize healthcare metrics and patient outcomes.",
-      image: "/p4.jpg?height=300&width=500",
-      tags: ["R", "Shiny", "Data Analysis", "Visualization"],
-      demoLink: "#",
-      githubLink: "#",
-    },
-    {
-      title: "Mountain Photography Collection",
-      description: "A curated gallery of mountain landscapes captured during various hiking trips.",
+      title: "Data Warehouse and Real-Time ETL Pipeline",
+      description:
+        "Built an ETL pipeline and data warehouse to automate data flow for sales, inventory, and expenses. Generated business insights using SQL and created interactive dashboards with Power BI.",
       image: "/p2.jpg?height=300&width=500",
-      tags: ["Photography", "Nature", "Landscape"],
+      tags: ["Power BI", "MySQL", "Python", "ETL", "SQL", "Business Intelligence"],
       demoLink: "#",
-      githubLink: null,
+      githubLink: "#",
+    },
+    {
+      title: "HR Data Insights using SQL",
+      description:
+        "Analyzed HR data using SQL to uncover insights on employee management, salaries, and job roles. Enhanced querying skills using joins, subqueries, and analytic functions.",
+      image: "/p4.jpg?height=300&width=500",
+      tags: ["SQL", "MySQL", "Data Analysis", "Kaggle Dataset"],
+      demoLink: "#",
+      githubLink: "#",
     },
   ]
+  
 
   const containerVariants = {
     hidden: { opacity: 0 },

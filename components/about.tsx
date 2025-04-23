@@ -70,7 +70,7 @@ const About = () => {
   Outside academics, I enjoy exploring data trends, coding projects, and enhancing my skills through hands-on experimentation.
 </p>
 
-
+{/* 
             <div className="pt-4">
               <h4 className="text-lg font-medium text-slate-800 dark:text-white mb-4">Technical Skills</h4>
               <div className="flex flex-wrap gap-3">
@@ -83,7 +83,7 @@ const About = () => {
                   </Card>
                 ))}
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>
