@@ -10,7 +10,8 @@ const skills = [
   { name: "C++", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" },
   { name: "C", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" },
   { name: "R", icon: "https://www.r-project.org/logo/Rlogo.png" },
-  { name: "ggplot", icon: "https://upload.wikimedia.org/wikipedia/commons/0/05/Ggplot2_logo.png" },
+  { name: "ggplot2", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" },
+
   { name: "SQL", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" },
   { name: "MongoDB", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" },
   { name: "Tableau", icon: "https://cdn.worldvectorlogo.com/logos/tableau-software.svg" },
