@@ -4,6 +4,7 @@ import About from "@/components/about"
 import Projects from "@/components/projects"
 import Resume from "@/components/resume"
 import Contact from "@/components/contact"
+import Skills from "@/components/skills"
 import Footer from "@/components/footer"
 import Certificates from "@/components/certificates"
 
@@ -14,10 +15,12 @@ export default function Home() {
       {/* <Hero /> */}
       <div className="container mx-auto px-4 py-8">
         <About />
+        
         <Projects />
         <Certificates />
         <Resume />
         <Contact />
+        <Skills />
       </div>
       <Footer />
     </main>
